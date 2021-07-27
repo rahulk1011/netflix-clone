@@ -1,0 +1,29 @@
+name: Netflix
+type: theme
+description: 'Netflix search engine theme for Drupal 9 by Rahul'
+core_version_requirement: ^8 || ^9
+libraries: 
+  - netflix/global-styling
+base theme: classy
+regions: 
+  sidebar: 'Netflix Sidebar'
+  header: 'Header'
+  homepage: 'Homepage Display'
+  footer: 'Footer'
+  content: 'Content'
+  help: 'Help'
+  breadcrumb: 'Breadcrumb'
+  highlighted: 'Highlighted'
+  primary_menu: 'Primary Menu'
+screenshot: images/netflix_screenshot.png
+hidden: false
+logo: images/netflix_logo.png
+features: 
+  - comment_user_verification
+  - logo
+  - favicon
+  - node_user_picture
+libraries-override: 
+  classy/base: false
+stylesheets-remove:
+  - core/assets/vendor/normalize-css/normalize.css
